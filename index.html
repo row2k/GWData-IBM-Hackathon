@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Hippo Hacks 2017</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body bgcolor=white>
+
+    <p> Dope maps </p>
+    <div id='map' style='width: 800px; height: 600px;'></div>
+        <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2NoaWFyaXp6aSIsImEiOiJjajE4a3NuZWowNzQ5MzNvN2xkdGh2YnVwIn0.dOZQgGCs8Fwxpy7bmRvvTg';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v9'
+        });
+        </script>
+    
+    <br>
+    <br>
+    <p>School Districts in the US, 2017. <p/>
+    <a href="https://github.com/mikearango/GWData-IBM-Hackathon">Shape Files Here</a>
+    <br>
+    <br>
+    <div id='map2' style='width: 800px; height: 600px;'></div>
+        <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2NoaWFyaXp6aSIsImEiOiJjajE4a3NuZWowNzQ5MzNvN2xkdGh2YnVwIn0.dOZQgGCs8Fwxpy7bmRvvTg';
+        var map2 = new mapboxgl.Map({
+        container: 'map2',
+        style: 'mapbox://styles/schiarizzi/cj18l9hzw002y2sp1sxllrzjc'
+        });
+        </script>
+  </body>
+</html>
