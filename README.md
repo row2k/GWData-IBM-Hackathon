@@ -1,6 +1,9 @@
 # Hippo Hack 2017
 ### _GWData-IBM-Hackathon_
+[Maps here](http://row2k.github.io/GWData-IBM-Hackathon)
+
 This is the GWData HippoHacks2017 Repository for Team Synergy: Michael Arango, Joseph Schiarizzi, &amp; Rowland Zhang.
+
 
 ## EDA
 Messy dataset we got here, huh. Here is our [ScotchBrite&Clorox](https://github.com/mikearango/GWData-IBM-Hackathon/blob/master/scripts/EdGov.ipynb).
